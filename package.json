@@ -1,0 +1,26 @@
+{
+  "name": "maintenance",
+  "version": "0.0.1",
+  "description": "Maintenance script",
+  "main": "StartButton.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PlaceStart/Temp-Maintenance.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PlaceStart/Temp-Maintenance/issues"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-jsmin": "^0.1.5",
+    "gulp-rename": "^1.2.2"
+  },
+  "scripts": {
+    "dist": "./node_modules/.bin/gulp"
+  }
+}
